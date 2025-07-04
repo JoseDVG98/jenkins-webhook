@@ -4,8 +4,10 @@ public class ToUpperCase {
             String input = args[0];
             String output = input.toUpperCase();
             System.out.println(output);
+            System.out.println("SE HA EJECUTADO CORRECTAMENTE EL WEBHOOK Y LA BUILD");
         } else {
             System.out.println("Please provide a string as an XXXXXXXX ");
+
         }
     }
 }
